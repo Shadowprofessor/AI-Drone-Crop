@@ -1,0 +1,1 @@
+{"disease":"System Sync Error","confidence":0.0,"severity":"N/A","report":{"summary":"Inference Error: [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Unexpected input data type. Actual: (tensor(double)) , expected: (tensor(float))","cure":"Check backend terminal logs."},"image_url":"/static/9281.jpg","provider":"ERROR"}

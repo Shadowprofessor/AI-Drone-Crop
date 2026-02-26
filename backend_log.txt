@@ -1,0 +1,33 @@
+C:\Users\Dell\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pydantic\_internal\_config.py:373: UserWarning: Valid config keys have changed in V2:
+* 'orm_mode' has been renamed to 'from_attributes'
+  warnings.warn(message, UserWarning)
+C:\Users\Dell\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\google\api_core\_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.11) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+C:\Users\Dell\OneDrive\Desktop\Drone ai crop\ai_engine\analysis.py:1: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+C:\Users\Dell\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\onnxruntime\capi\onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'VitisAIExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+INFO:     Started server process [18084]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+--- RYZEN AI SYSTEM INITIALIZING ---
+DEBUG: Model Path: C:\Users\Dell\OneDrive\Desktop\Drone ai crop\ai_engine\plant_disease_resnet18.onnx
+--- RYZEN AI ENGINE STARTUP ---
+Model Path: C:\Users\Dell\OneDrive\Desktop\Drone ai crop\ai_engine\plant_disease_resnet18.onnx
+Classes Path: C:\Users\Dell\OneDrive\Desktop\Drone ai crop\ai_engine\classes.txt
+Loaded 18 classes.
+Attempting to initialize ONNX Runtime with AMD Ryzen AI...
+Active Providers: ['CPUExecutionProvider']
+STATUS: Running on AMD RYZENÖ AI CPU (Optimized)
+DEBUG: AI Engine State: Ready
+Background Sync: Started

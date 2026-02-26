@@ -1,0 +1,7 @@
+{
+    "target": "DPU",
+    "fused_gemm": true,
+    "fast_norm": true,
+    "precision": "FP32",
+    "thread_count": 4
+}
