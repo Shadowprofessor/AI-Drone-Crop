@@ -53,6 +53,3 @@ cd frontend
 npm install
 npm run dev
 ```
-
-## 📜 License
-MIT License. Developed for AMD Ryzen AI agricultural innovation.
